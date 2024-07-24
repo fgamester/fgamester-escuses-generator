@@ -28,4 +28,13 @@ function generateNumber(anArray) {
   return num;
 }
 
-// console.log(generateAnExcuse(who,action,what,when));
+window, addEventListener("load", loaded());
+
+function loaded() {
+  document.getElementById("excuse").innerHTML = generateAnExcuse(
+    who,
+    action,
+    what,
+    when
+  );
+}
