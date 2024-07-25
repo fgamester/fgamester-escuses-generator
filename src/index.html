@@ -1,4 +1,7 @@
+<!-- llamada del archivo app.js -->
 <script type="text/javascript" src="app.js"></script>
-<body>
+<!-- por lo que logré investigar "onload" no puede ser llamado en un elemento <p>, así que agregué el elemento <body> -->
+<body onload="loaded()">
+  <!-- parrafo que se editará en el futuro mediante el generador de excusas -->
   <p id="excuse">I didn't understand the Homework</p>
-<body/>
+</body>
